@@ -13,9 +13,8 @@
 
 if [[ `module list 2>&1 | grep -c cuda` -eq "0" ]]; then
   module load libs/nvidia-cuda/10.1.168/bin
-  module load libs/cuda/10.0.130
 fi
-module list
+
 echo '--- modules complete ---';echo
 
 
